@@ -4,25 +4,78 @@ import XCTest
 @testable import CookieCliker
 
 class CookieClikerTests: XCTestCase {
+	var game = Game()
+	override func setUp() {
+		super.setUp()
+		game = Game()
+		game.score = 0
+		game.initialize()
+	}
+	
+	func testGivenCookieAre0_WhenClicking_ThenCookiesShouldBeOne() {
+		game.cookieClick()
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+		XCTAssertEqual(game.score, 1)
+	}
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+	func testGivenCookiePerSecondAreOneAndScoreIsZero_WhenOneSecondPass_ThenScoreShouldBeOne() {
+		game.cookiesPerMiliSecond = 0.1
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+		for _ in 0..<10 {
+			game.timePassed()
+		}
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+		XCTAssertTrue(game.score > 0.95) //Because 0,1+0,2 does not equal to 0,3
+	}
 
+	func testGivenNotEnoughCookieToBuy_WhenBuying_ThenNotBuying() {
+		let random = Int.random(in: 0...game.upgradeList.count - 1)
+
+		game.buyOne(upgrade: random)
+
+		XCTAssertEqual(game.numberOfUpgrade[random], 0)
+	}
+
+	func testGivenNothingHasBeenBuyed_WhenBuyingABuilding_ThenCPSIsEqualToCpsOfThisBuilding() {
+		let random = Int.random(in: 0...game.upgradeList.count - 1)
+		game.score = Double(game.upgradeList[random].baseCost)
+
+		game.buyOne(upgrade: random)
+
+		print("Random Upgrade for test : \(random)")
+		XCTAssertEqual(game.cookiesPerMiliSecond, game.upgradeList[random].cookPerUnitPerSecond/10)
+	}
+
+	func testGivenBuildingWasBuyed_WhenBuying_ThenCostNotTheSame() {
+		let random = Int.random(in: 0...game.upgradeList.count - 1)
+		game.score = Double(game.upgradeList[random].baseCost)
+		game.buyOne(upgrade: random)
+		game.score = Double(game.upgradeList[random].baseCost)
+
+		game.buyOne(upgrade: random) //Expected : unable to buy
+
+		XCTAssertEqual(game.numberOfUpgrade[random], 1)
+	}
+}
+
+//MARK : - Export And Import Tests
+extension CookieClikerTests {
+	var exportCode : String{
+		get {
+			return ExportService.shared.export()
+		}
+	}
+	var impor : importService {
+		get {
+			return importService.shared
+		}
+	}
+
+	func testGivenNameWasJohn_WhenExportingAndImporting_ThenNameIsJohn() {
+		SaveServices.shared.renameGAme(index: 0, newName: "John")
+
+		impor.importKey(exportCode)
+
+		XCTAssertEqual(impor.gameName, "John")
+	}
 }

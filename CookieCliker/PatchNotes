@@ -1,0 +1,45 @@
+Patch Notes of Cookie Clicker game reproduced by Titouan Blossier with Swift on Xcode for IOS support.
+Don't steal.
+Patch Note was begin the 28/08/19
+------------------------------------------------
+Features for future version :
+		- Button to load an export code
+		- Achievements
+		- Upgrades for your buildings
+		- Export save compatible with the true game
+------------------------------------------------
+
+
+Beta V1.2.0(31/08/19) :
+	- Changed Settings interface
+	- You can now edit your games's name with the edit button ! It's easy and fast !
+	- You can now export your game by copying the code just bellow the Load List :
+			- The code refresh each time you select a new game or go to setting.
+			- The code only store the actual loaded game
+	- The "exportButton" was deleted.
+	- Better Setting interface 
+
+
+Beta V1.1.1 (29/08/19) :
+	- Fix a bug wich was causing crash of the application when deleting game in a particular way
+	- Corner of every setting button are now better
+	- Fix a bug wich was making imposible for some user to see the "Load" label entirely
+	- Some optimisation while coming back from setting
+
+Beta V1.1.0 (29/08/19) :
+	Introducing Beta v1.1.0 ! :
+		- You can now save multiple game and easelly switch from one to an other
+		- You can of course delete the game that you create
+		- The automatic save delay was changed from 10 seconds to 100 seconds
+		- There is an automatic save each time you quit the game and each time you load  new game.
+		- New button in Setting Interface, design will continue to evoluate
+		- We are working on a rename button to rename your games
+		- A new button was added called "export game", for the moment it's useless but not for long...
+
+
+Beta V1.0.0 (27/08/19) :
+	- Click the cookie to get cookies
+	- Buy buildings with cookies so you win more cookies
+	- There are currently 14 upgrades available
+	- The game autosave every 10 seconds
+	- Settings are disponible but we are still working on them to improve the design and to propose you more options.

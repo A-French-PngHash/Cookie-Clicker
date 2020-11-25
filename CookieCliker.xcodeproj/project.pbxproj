@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0904C4C323172045004B850C /* saveServic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0904C4C223172045004B850C /* saveServic.swift */; };
 		0926BE9B230FEA3A00A2C114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926BE9A230FEA3A00A2C114 /* AppDelegate.swift */; };
-		0926BE9D230FEA3A00A2C114 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0926BE9C230FEA3A00A2C114 /* GameScene.sks */; };
-		0926BE9F230FEA3A00A2C114 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0926BE9E230FEA3A00A2C114 /* Actions.sks */; };
 		0926BEA1230FEA3A00A2C114 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926BEA0230FEA3A00A2C114 /* GameScene.swift */; };
 		0926BEA3230FEA3A00A2C114 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926BEA2230FEA3A00A2C114 /* GameViewController.swift */; };
-		0926BEA6230FEA3A00A2C114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926BEA4230FEA3A00A2C114 /* Main.storyboard */; };
 		0926BEA8230FEA3D00A2C114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0926BEA7230FEA3D00A2C114 /* Assets.xcassets */; };
 		0926BEAB230FEA3D00A2C114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926BEA9230FEA3D00A2C114 /* LaunchScreen.storyboard */; };
 		0926BEB6230FEA3D00A2C114 /* CookieClikerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926BEB5230FEA3D00A2C114 /* CookieClikerTests.swift */; };
+		0926BEC5230FEF2000A2C114 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926BEC4230FEF2000A2C114 /* Game.swift */; };
+		0926BEC92310087600A2C114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0926BEC72310087600A2C114 /* Assets.xcassets */; };
+		0926BECB231008E000A2C114 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0926BECA231008E000A2C114 /* MyParticle.sks */; };
+		0926BECD2310770400A2C114 /* GameCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926BECC2310770400A2C114 /* GameCursor.swift */; };
+		0926BECF2310771B00A2C114 /* UpgradeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926BECE2310771B00A2C114 /* UpgradeProtocol.swift */; };
+		093F7094231088E300E9C1D7 /* UpgradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F7093231088E300E9C1D7 /* UpgradeTableViewCell.swift */; };
+		09579656231160B6008F887D /* GameGrandma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09579655231160B6008F887D /* GameGrandma.swift */; };
+		0958AD892315F31500E371D4 /* PatchNotes in Resources */ = {isa = PBXBuildFile; fileRef = 0958AD882315F31500E371D4 /* PatchNotes */; };
+		098811D42319215D004E6F3D /* PrePatchNote in Resources */ = {isa = PBXBuildFile; fileRef = 098811D32319215D004E6F3D /* PrePatchNote */; };
+		098811D623193028004E6F3D /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098811D523193028004E6F3D /* ExportService.swift */; };
+		09A8538B2311FC1E0089DAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A853892311FC1E0089DAEA /* Main.storyboard */; };
+		09A8538D2312E0ED0089DAEA /* GameFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8538C2312E0ED0089DAEA /* GameFarm.swift */; };
+		09A8538F2312E1750089DAEA /* GameMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8538E2312E1750089DAEA /* GameMine.swift */; };
+		09A853912312E2080089DAEA /* GameFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853902312E2080089DAEA /* GameFactory.swift */; };
+		09A853932312E2730089DAEA /* GameBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853922312E2730089DAEA /* GameBank.swift */; };
+		09A853952312E44E0089DAEA /* GameTemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853942312E44E0089DAEA /* GameTemple.swift */; };
+		09A853972312E4B70089DAEA /* GameWizardTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853962312E4B70089DAEA /* GameWizardTower.swift */; };
+		09A853992312E51E0089DAEA /* GameShipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853982312E51D0089DAEA /* GameShipment.swift */; };
+		09A8539B2312E5E00089DAEA /* GameAlchemyLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8539A2312E5E00089DAEA /* GameAlchemyLab.swift */; };
+		09A8539D2312E7590089DAEA /* GamePortal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8539C2312E7590089DAEA /* GamePortal.swift */; };
+		09A8539F2312E7DC0089DAEA /* GameTimeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8539E2312E7DC0089DAEA /* GameTimeMachine.swift */; };
+		09A853A12312E8710089DAEA /* GameAntimatterCondenser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853A02312E8710089DAEA /* GameAntimatterCondenser.swift */; };
+		09A853A32312E8FF0089DAEA /* GamePrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853A22312E8FF0089DAEA /* GamePrism.swift */; };
+		09A853A52312E9820089DAEA /* GameChancemaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853A42312E9820089DAEA /* GameChancemaker.swift */; };
+		09A853A72312EA260089DAEA /* GameFractalEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A853A62312EA260089DAEA /* GameFractalEngine.swift */; };
+		09A853A923131BF10089DAEA /* clickOnCookie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A853A823131BF10089DAEA /* clickOnCookie.mp3 */; };
+		09A853AB23131C290089DAEA /* upgradeBuyed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A853AA23131C290089DAEA /* upgradeBuyed.mp3 */; };
+		09B3F82023157A98003D1877 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3F81F23157A98003D1877 /* SettingViewController.swift */; };
+		09F25826231A874000F1BEF7 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F25825231A874000F1BEF7 /* GameTableViewCell.swift */; };
+		09F25828231AB2EA00F1BEF7 /* ImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F25827231AB2EA00F1BEF7 /* ImportService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,19 +57,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0904C4C223172045004B850C /* saveServic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveServic.swift; sourceTree = "<group>"; };
 		0926BE97230FEA3A00A2C114 /* CookieCliker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCliker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0926BE9A230FEA3A00A2C114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0926BE9C230FEA3A00A2C114 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		0926BE9E230FEA3A00A2C114 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		0926BEA0230FEA3A00A2C114 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		0926BEA2230FEA3A00A2C114 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		0926BEA5230FEA3A00A2C114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0926BEA7230FEA3D00A2C114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0926BEAA230FEA3D00A2C114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0926BEAC230FEA3D00A2C114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0926BEB1230FEA3D00A2C114 /* CookieClikerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieClikerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0926BEB5230FEA3D00A2C114 /* CookieClikerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieClikerTests.swift; sourceTree = "<group>"; };
 		0926BEB7230FEA3D00A2C114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0926BEC4230FEF2000A2C114 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		0926BEC72310087600A2C114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0926BECA231008E000A2C114 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		0926BECC2310770400A2C114 /* GameCursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCursor.swift; sourceTree = "<group>"; };
+		0926BECE2310771B00A2C114 /* UpgradeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeProtocol.swift; sourceTree = "<group>"; };
+		093F7093231088E300E9C1D7 /* UpgradeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeTableViewCell.swift; sourceTree = "<group>"; };
+		09579655231160B6008F887D /* GameGrandma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGrandma.swift; sourceTree = "<group>"; };
+		0958AD882315F31500E371D4 /* PatchNotes */ = {isa = PBXFileReference; lastKnownFileType = text; path = PatchNotes; sourceTree = "<group>"; };
+		098811D32319215D004E6F3D /* PrePatchNote */ = {isa = PBXFileReference; lastKnownFileType = text; path = PrePatchNote; sourceTree = "<group>"; };
+		098811D523193028004E6F3D /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		09A8538A2311FC1E0089DAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A8538C2312E0ED0089DAEA /* GameFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFarm.swift; sourceTree = "<group>"; };
+		09A8538E2312E1750089DAEA /* GameMine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMine.swift; sourceTree = "<group>"; };
+		09A853902312E2080089DAEA /* GameFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFactory.swift; sourceTree = "<group>"; };
+		09A853922312E2730089DAEA /* GameBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBank.swift; sourceTree = "<group>"; };
+		09A853942312E44E0089DAEA /* GameTemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTemple.swift; sourceTree = "<group>"; };
+		09A853962312E4B70089DAEA /* GameWizardTower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWizardTower.swift; sourceTree = "<group>"; };
+		09A853982312E51D0089DAEA /* GameShipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameShipment.swift; sourceTree = "<group>"; };
+		09A8539A2312E5E00089DAEA /* GameAlchemyLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAlchemyLab.swift; sourceTree = "<group>"; };
+		09A8539C2312E7590089DAEA /* GamePortal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePortal.swift; sourceTree = "<group>"; };
+		09A8539E2312E7DC0089DAEA /* GameTimeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimeMachine.swift; sourceTree = "<group>"; };
+		09A853A02312E8710089DAEA /* GameAntimatterCondenser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAntimatterCondenser.swift; sourceTree = "<group>"; };
+		09A853A22312E8FF0089DAEA /* GamePrism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePrism.swift; sourceTree = "<group>"; };
+		09A853A42312E9820089DAEA /* GameChancemaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameChancemaker.swift; sourceTree = "<group>"; };
+		09A853A62312EA260089DAEA /* GameFractalEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFractalEngine.swift; sourceTree = "<group>"; };
+		09A853A823131BF10089DAEA /* clickOnCookie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickOnCookie.mp3; sourceTree = "<group>"; };
+		09A853AA23131C290089DAEA /* upgradeBuyed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = upgradeBuyed.mp3; sourceTree = "<group>"; };
+		09B3F81F23157A98003D1877 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		09F25825231A874000F1BEF7 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		09F25827231AB2EA00F1BEF7 /* ImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +139,11 @@
 		0926BE99230FEA3A00A2C114 /* CookieCliker */ = {
 			isa = PBXGroup;
 			children = (
-				0926BE9A230FEA3A00A2C114 /* AppDelegate.swift */,
-				0926BE9C230FEA3A00A2C114 /* GameScene.sks */,
-				0926BE9E230FEA3A00A2C114 /* Actions.sks */,
-				0926BEA0230FEA3A00A2C114 /* GameScene.swift */,
-				0926BEA2230FEA3A00A2C114 /* GameViewController.swift */,
-				0926BEA4230FEA3A00A2C114 /* Main.storyboard */,
-				0926BEA7230FEA3D00A2C114 /* Assets.xcassets */,
-				0926BEA9230FEA3D00A2C114 /* LaunchScreen.storyboard */,
-				0926BEAC230FEA3D00A2C114 /* Info.plist */,
+				0926BEC3230FEEEB00A2C114 /* Supporting Files */,
+				0926BEC2230FEEE500A2C114 /* Controller */,
+				0926BEC1230FEEDD00A2C114 /* View */,
+				0926BEC0230FEED700A2C114 /* Model */,
+				0958AD882315F31500E371D4 /* PatchNotes */,
 			);
 			path = CookieCliker;
 			sourceTree = "<group>";
@@ -105,6 +157,78 @@
 			path = CookieClikerTests;
 			sourceTree = "<group>";
 		};
+		0926BEC0230FEED700A2C114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0926BEC4230FEF2000A2C114 /* Game.swift */,
+				0926BECE2310771B00A2C114 /* UpgradeProtocol.swift */,
+				0904C4C223172045004B850C /* saveServic.swift */,
+				098811D523193028004E6F3D /* ExportService.swift */,
+				09F25827231AB2EA00F1BEF7 /* ImportService.swift */,
+				09B3F81C23154F31003D1877 /* Buildings */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0926BEC1230FEEDD00A2C114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0926BEA0230FEA3A00A2C114 /* GameScene.swift */,
+				0926BEA9230FEA3D00A2C114 /* LaunchScreen.storyboard */,
+				09A853892311FC1E0089DAEA /* Main.storyboard */,
+				0926BEC72310087600A2C114 /* Assets.xcassets */,
+				0926BECA231008E000A2C114 /* MyParticle.sks */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0926BEC2230FEEE500A2C114 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0926BEA2230FEA3A00A2C114 /* GameViewController.swift */,
+				093F7093231088E300E9C1D7 /* UpgradeTableViewCell.swift */,
+				09B3F81F23157A98003D1877 /* SettingViewController.swift */,
+				09F25825231A874000F1BEF7 /* GameTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0926BEC3230FEEEB00A2C114 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0926BEAC230FEA3D00A2C114 /* Info.plist */,
+				0926BEA7230FEA3D00A2C114 /* Assets.xcassets */,
+				09A853A823131BF10089DAEA /* clickOnCookie.mp3 */,
+				09A853AA23131C290089DAEA /* upgradeBuyed.mp3 */,
+				0926BE9A230FEA3A00A2C114 /* AppDelegate.swift */,
+				098811D32319215D004E6F3D /* PrePatchNote */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09B3F81C23154F31003D1877 /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				0926BECC2310770400A2C114 /* GameCursor.swift */,
+				09579655231160B6008F887D /* GameGrandma.swift */,
+				09A8538C2312E0ED0089DAEA /* GameFarm.swift */,
+				09A8538E2312E1750089DAEA /* GameMine.swift */,
+				09A853902312E2080089DAEA /* GameFactory.swift */,
+				09A853922312E2730089DAEA /* GameBank.swift */,
+				09A853942312E44E0089DAEA /* GameTemple.swift */,
+				09A853962312E4B70089DAEA /* GameWizardTower.swift */,
+				09A853982312E51D0089DAEA /* GameShipment.swift */,
+				09A8539A2312E5E00089DAEA /* GameAlchemyLab.swift */,
+				09A8539C2312E7590089DAEA /* GamePortal.swift */,
+				09A8539E2312E7DC0089DAEA /* GameTimeMachine.swift */,
+				09A853A02312E8710089DAEA /* GameAntimatterCondenser.swift */,
+				09A853A22312E8FF0089DAEA /* GamePrism.swift */,
+				09A853A42312E9820089DAEA /* GameChancemaker.swift */,
+				09A853A62312EA260089DAEA /* GameFractalEngine.swift */,
+			);
+			name = Buildings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +239,7 @@
 				0926BE93230FEA3A00A2C114 /* Sources */,
 				0926BE94230FEA3A00A2C114 /* Frameworks */,
 				0926BE95230FEA3A00A2C114 /* Resources */,
+				0958AD8723158E9800E371D4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -186,11 +311,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0926BEA6230FEA3A00A2C114 /* Main.storyboard in Resources */,
-				0926BE9D230FEA3A00A2C114 /* GameScene.sks in Resources */,
 				0926BEA8230FEA3D00A2C114 /* Assets.xcassets in Resources */,
+				098811D42319215D004E6F3D /* PrePatchNote in Resources */,
+				09A8538B2311FC1E0089DAEA /* Main.storyboard in Resources */,
+				09A853AB23131C290089DAEA /* upgradeBuyed.mp3 in Resources */,
+				0958AD892315F31500E371D4 /* PatchNotes in Resources */,
 				0926BEAB230FEA3D00A2C114 /* LaunchScreen.storyboard in Resources */,
-				0926BE9F230FEA3A00A2C114 /* Actions.sks in Resources */,
+				0926BEC92310087600A2C114 /* Assets.xcassets in Resources */,
+				0926BECB231008E000A2C114 /* MyParticle.sks in Resources */,
+				09A853A923131BF10089DAEA /* clickOnCookie.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,14 +332,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0958AD8723158E9800E371D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0926BE93230FEA3A00A2C114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A8538F2312E1750089DAEA /* GameMine.swift in Sources */,
+				09579656231160B6008F887D /* GameGrandma.swift in Sources */,
+				09A853972312E4B70089DAEA /* GameWizardTower.swift in Sources */,
+				0926BECF2310771B00A2C114 /* UpgradeProtocol.swift in Sources */,
+				09A8538D2312E0ED0089DAEA /* GameFarm.swift in Sources */,
+				09A853A72312EA260089DAEA /* GameFractalEngine.swift in Sources */,
+				09A8539D2312E7590089DAEA /* GamePortal.swift in Sources */,
+				09A853A52312E9820089DAEA /* GameChancemaker.swift in Sources */,
+				09A853952312E44E0089DAEA /* GameTemple.swift in Sources */,
+				0904C4C323172045004B850C /* saveServic.swift in Sources */,
+				093F7094231088E300E9C1D7 /* UpgradeTableViewCell.swift in Sources */,
+				09A8539F2312E7DC0089DAEA /* GameTimeMachine.swift in Sources */,
+				09B3F82023157A98003D1877 /* SettingViewController.swift in Sources */,
+				09F25828231AB2EA00F1BEF7 /* ImportService.swift in Sources */,
+				09F25826231A874000F1BEF7 /* GameTableViewCell.swift in Sources */,
+				09A853992312E51E0089DAEA /* GameShipment.swift in Sources */,
+				098811D623193028004E6F3D /* ExportService.swift in Sources */,
 				0926BEA1230FEA3A00A2C114 /* GameScene.swift in Sources */,
+				09A853A12312E8710089DAEA /* GameAntimatterCondenser.swift in Sources */,
 				0926BEA3230FEA3A00A2C114 /* GameViewController.swift in Sources */,
+				09A853932312E2730089DAEA /* GameBank.swift in Sources */,
+				09A8539B2312E5E00089DAEA /* GameAlchemyLab.swift in Sources */,
 				0926BE9B230FEA3A00A2C114 /* AppDelegate.swift in Sources */,
+				0926BEC5230FEF2000A2C114 /* Game.swift in Sources */,
+				09A853912312E2080089DAEA /* GameFactory.swift in Sources */,
+				0926BECD2310770400A2C114 /* GameCursor.swift in Sources */,
+				09A853A32312E8FF0089DAEA /* GamePrism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,20 +407,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0926BEA4230FEA3A00A2C114 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0926BEA5230FEA3A00A2C114 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0926BEA9230FEA3D00A2C114 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0926BEAA230FEA3D00A2C114 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		09A853892311FC1E0089DAEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A8538A2311FC1E0089DAEA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -374,12 +548,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9S68YAA779;
-				INFOPLIST_FILE = CookieCliker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CookieCliker/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.TitouanBlossier.CookieCliker;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.titouan.cookie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -392,12 +566,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9S68YAA779;
-				INFOPLIST_FILE = CookieCliker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CookieCliker/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fr.TitouanBlossier.CookieCliker;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.titouan.cookie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
